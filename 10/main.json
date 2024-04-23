@@ -1,0 +1,14 @@
+
+    {
+        "name": "Super",
+        "pass": false,
+        "power": {
+            "pass": false
+        },
+        "active": [
+            {
+                "name": "Super"
+            }
+        ],
+        "dev": ["test", "dev" ]
+    }

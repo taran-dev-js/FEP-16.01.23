@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #333;
+            color: #fff
+        }
+        input {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        input.invalid {
+            border: 2px solid red;
+        }
+        input:focus-visible {
+            outline: none;
+        }
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 300px;
+            margin: auto;
+        }
+        select{ 
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" autocomplete="off" id="form">
+        <input type="text" class="input" name="name" id="name"/>
+        <input type="text" class="input" name="lastName" id="lastNameID"/>
+
+        <input type="text" class="input" name="email" id="email"/>
+        
+        <label for="checkbox">checkbox</label>
+        <input type="checkbox" name="checkbox" id="checkbox" value="yes">
+        <select name="first" id="select">
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select>
+        <textarea name="textarea" id="" cols="30" rows="10"></textarea>
+        <button type="submit" name="submit" disabled>submit</button>
+        <button type="reset" name="reset">reset</button>
+    </form>
+    
+    
+    <script src="main.js" defer></script>
+</body>
+</html>

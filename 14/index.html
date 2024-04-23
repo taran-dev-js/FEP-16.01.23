@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #333;
+            color: #fff
+        }
+        .tabs-title-wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+        .tabs-item {
+            width: 50%;
+            text-align: center;
+        }
+        .tabs-btn {
+            padding: 20px 40px;
+            font-size: 25px;
+            border: 1px solid #fff;
+            color: #fff;
+            background-color: transparent;
+            cursor: pointer;
+        }
+        .tabs-content-wrapper {
+            display: flex;
+            width: 100%;
+        }
+        .tabs-content-item {
+            display: none;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #fff;
+            text-align: center;
+            width: 100%;
+        }
+
+        .tabs-content-item.isActive {
+            display: block;
+        }
+
+        .tabs-btn.isActive {
+            border-color: aqua;
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="tabs-title-wrapper">
+            <div class="tabs-item">
+                <button class="tabs-btn isActive" id="tab-1">tab 1</button>
+            </div>
+            <div class="tabs-item">
+                <button class="tabs-btn" id="tab-2">tab 2</button>
+            </div>
+        </div>
+        <div class="tabs-content-wrapper">
+            <div class="tabs-content-item isActive" data-content-id="tab-1">
+                Content tab 1
+            </div>
+            <div class="tabs-content-item" data-content-id="tab-2">
+                Content tab 2
+            </div>
+        </div>
+    </div>
+    
+    <script>
+
+        // generateList( [1,2, [1,2,3] ,3, [1,2,3] ] )
+    </script>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>
+            <ul>
+                <li>1.1</li>
+                <li>1.2</li>
+                <li>1.3</li>
+            </ul>
+        </li>
+        <li>3</li>
+        <li>
+            <ul>
+                <li>2.1</li>
+                <li>2.2</li>
+                <li>2.3</li>
+            </ul>
+        </li>
+    </ul>
+    <script src="main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #333;
+            color: #fff
+        }
+        input {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        input.invalid {
+            border: 2px solid red;
+        }
+        input:focus-visible {
+            outline: none;
+        }
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 300px;
+            margin: auto;
+        }
+        select{ 
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <ul id="ul">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>
+            <ul>
+                <li>1.1</li>
+                <li>1.2</li>
+                <li>1.4</li>
+            </ul>
+        </li>
+        <li>4</li>
+        <li>6</li>
+        <li>
+            <ul>
+                <li>2.1</li>
+                <li>2.5</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <script src="main.js" defer></script>
+</body>
+</html>
