@@ -11,3 +11,15 @@ export const arrTabsData = [
     content: "Content for tab 1",
   },
 ];
+
+export const ProductsData = [
+  {
+    title: "Product 1",
+    id: "wefeswfewf",
+  },
+
+  {
+    title: "Product 2",
+    id: "wefeswfsfwfesewf",
+  },
+];
