@@ -1,5 +1,11 @@
+.btn {
+  padding: 10px;
+  background-color: black;
+  color: floralwhite;
+}
+
 .btn.big {
-    font-size: 25px;
-    padding: 20px;
-    background-color: #8c8a8a;
+  font-size: 25px;
+  padding: 20px;
+  background-color: #8c8a8a;
 }
